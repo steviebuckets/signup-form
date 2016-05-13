@@ -1,0 +1,64 @@
+body{
+	background-color: #e5e5e5;
+}
+
+h2{
+	text-align: center;
+	padding: 1.2em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.8em;
+	color: #333333;
+}
+
+.main {
+background-color: white;
+height: 25em;
+margin-right: 15.625em;
+margin-left: 15.625em;
+margin-top: 8.750em;
+position: relative;
+}
+
+
+.container{
+	text-align: center;
+	margin-top: -1.5em;
+}
+
+#user-info{
+  margin-bottom: 0em;
+	height: 2.7em;
+	width: 17em;
+}
+
+#finish{
+	height: 6em;
+	width: 3em;
+  font-size: 2em;
+  color: #333333;
+}
+
+.prompt{
+	font-family: 'Raleway', sans-serif;
+	color: #333333;
+	padding-top: 9em;
+	text-align: center;
+	display: none;
+	
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 500px) {
+    .main{
+      padding: .5em 0;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+
+    .prompt{
+    	font-size: .9em;
+    }
+
+    }
+
